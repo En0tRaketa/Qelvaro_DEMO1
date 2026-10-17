@@ -1,6 +1,6 @@
 import type { CompanyConfig, PublicConfig } from './config/types';
 import type { LeadInput } from './lib/lead';
-import { defaultConfig, defaultIntegrations } from './config/defaults';
+import { defaultConfig } from './config/defaults';
 
 export class ApiError extends Error {
   errors: string[];
